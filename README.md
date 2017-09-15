@@ -1,24 +1,15 @@
-# ProjectSpace
+# Simple AppleScript to get URLs of tabs on browser
 
-Requires tmux server.
+Tested on Safari and Chrome.
 
-Usage: proj ProjectSpace
+When working on a project, I often have multiple browser tabs open with information relating to that project. I wanted a way to simply save and open those tab URLs whenever I'm switching to-and-from project contexts. 
 
-TODO:
-- Check if tmux session exists
-- Check if project directory with git initialized exists
-- Check if urls exist
-- Run startup scripts (ie, connect to VPN, SSH, additional applications)
-- Open tmux session, open urls in default browser
+## Example #1
+\# Get front window browser URLs and save to file 'urls' in working directory.
+`$ gurls > urls`
 
+\# Comes with bash script to open urls
+`$ go < urls`
 
-# Example 2
-
-Usage: proj close
-
-TODO:
-- Detach project session
-- Run Applescript to save browser tabs into project directory
-- Run close scripts
 
 
